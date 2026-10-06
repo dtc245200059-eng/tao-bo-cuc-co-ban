@@ -1,0 +1,166 @@
+/* 1. Body & Main container */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#main {
+    width: 960px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 2. Head (Logo & Banner) */
+#head {
+    height: 100px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #0056b3;
+}
+
+#head h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* 4. Head-link */
+#head-link {
+    height: 40px;
+    background-color: #333333;
+    margin-bottom: 10px;
+}
+
+#head-link ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#head-link ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#head-link ul li a:hover {
+    background-color: #555555;
+}
+
+/* 6. Left (Sidebar trái) */
+#left {
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    background-color: #e9ecef;
+    padding: 15px;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+}
+
+#left h3 {
+    margin-top: 0;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 6px;
+}
+
+#left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#left ul li {
+    margin-bottom: 10px;
+}
+
+#left ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#left ul li a:hover {
+    text-decoration: underline;
+}
+
+/* 8. Content (Khu vực nội dung chính) */
+#content {
+    width: 550px;
+    min-height: 400px;
+    float: left;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+#content h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.news-item {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.news-item h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.news-item p {
+    color: #555;
+    line-height: 1.5;
+}
+
+/* 8. Right (Sidebar phải) */
+#right {
+    width: 210px;
+    min-height: 400px;
+    float: right;
+    background-color: #e9ecef;
+    padding: 15px;
+    box-sizing: border-box;
+    border-left: 1px solid #ddd;
+}
+
+#right h3 {
+    margin-top: 0;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 6px;
+}
+
+.widget {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* 10. Footer (Cuối trang) */
+#footer {
+    clear: both;
+    height: 50px;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-top: 2px solid #222;
+}
+
+#footer p {
+    margin: 0;
+}
